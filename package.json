@@ -5,7 +5,8 @@
   "main": "bin/run.js",
   "dependencies": {
     "commander": "git+https://github.com/tj/commander.js.git#975e5a42f27887c8ed23002dac6f091fbb48fe81",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "request": "^2.79.0"
   },
   "devDependencies": {
     "eslint": "^3.8.1",
