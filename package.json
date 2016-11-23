@@ -1,0 +1,34 @@
+{
+  "name": "describe-messages",
+  "version": "0.0.1",
+  "description": "Describe images with Microsofts Vision API",
+  "main": "bin/run.js",
+  "dependencies": {
+    "commander": "git+https://github.com/tj/commander.js.git#975e5a42f27887c8ed23002dac6f091fbb48fe81",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weetbix/facebook-msg-archive.git"
+  },
+  "keywords": [
+    "pictures",
+    "vision",
+    "API",
+    "Commandline"
+  ],
+  "author": "John Hannagan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Weetbix/describe-images/issues"
+  },
+  "homepage": "https://github.com/Weetbix/describe-images#readme"
+}
