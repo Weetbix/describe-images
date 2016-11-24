@@ -34,7 +34,7 @@ function timeout(milliseconds) {
         // Split array into chunks of 20
         descriptions = { descriptions : [], errors : [] };
 
-        const CHUNK_SIZE = 1;
+        const CHUNK_SIZE = 20;
         const ONE_MINUTE = 60000;
         var i, j, imageChunk;
         for(i=0, j=images.length; i < j; i += CHUNK_SIZE)
